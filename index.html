@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/e1ff197604.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+  <title>TäringuMäng</title>
+</head>
+<body>
+  <div>
+    <h1>Täringu Mäng</h1>
+    <p>Sisestage enda nimi ja alustage täringu mängu mängimist</p>
+    <h2 id="nime_valjastamine"></h2>
+    <h2 id="raha_valjastamine"></h2>
+    <h4>Iga vise annab silmade arv korda 10 eurot juurde.</h4>
+    <h4>Kui viskad 15 silma, siis võidad 3000 eurot, kui läheb üle, kaotad kõik.</h4>
+    <input id="nimi" type="text">
+    <p>Sisesta algne rahasumma</p>
+    <input id="raha" type="text">
+    <button onclick="display_nimi(),display_raha()">Uuenda info</button>
+    <br>
+    <br>
+    <button onclick="alusta_mangu()">Alusta</button>
+    <br>
+    <h2 id="kautus_tekst"></h2>
+    <br>
+    <button onclick="veereta()">Veereta</button>
+    <br>
+    <br>
+    <h2 id="taringud"></h2>
+    <br>
+    <br>
+    <h2 id="silmad"></h2>
+    <script src="main.js"></script>
+  </div>
+</body>
+</html>

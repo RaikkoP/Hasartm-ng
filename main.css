@@ -1,0 +1,14 @@
+div {
+    background-color: aquamarine;
+    border-radius: 20px;
+    text-align: center;
+}
+button {
+    border: darkcyan solid 4px;
+    border-radius: 15px;
+    background-color: cyan;
+    font-size: 18px;
+}
+#nime_valjastamine, #raha_valjastamine {
+    color: orangered;
+}
